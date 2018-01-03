@@ -30,13 +30,23 @@ The second part and in generally colored in red means you either removed them
 from tracking or didn't added yet them to the stagging directory.
 ************************************************************************
 ************************************************************************
+
 In case you want to revert all your changes and clean the working 
 directory, you should type the following command:
 $ git reset --hard
-
  
+************************************************************************
+************************************************************************
 
- 
+To list local branches, type the following command:
+$ git branch
+But in order to list all branches local and remote, type the following 
+command:
+$ git branch -a
+
+
+************************************************************************
+************************************************************************ 
  
  
 
