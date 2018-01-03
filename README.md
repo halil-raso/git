@@ -28,6 +28,12 @@ have modifications you made to the staging directory (they have been mnoved from
 your working directory into the staging directory). these files need to be commited and pushing later.
 The second part and in generally colored in red means you either removed them 
 from tracking or didn't added yet them to the stagging directory.
+************************************************************************
+************************************************************************
+In case you want to revert all your changes and clean the working 
+directory, you should type the following command:
+$ git reset --hard
+
  
 
  
