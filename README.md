@@ -65,6 +65,14 @@ AND in this case your local branch is set up to the remote branch
 ***********************************************************************
 *********************************************************************** 
 
+To delete local branch, type the following command:
+git branch -d branch_name
+To delete remote branch, type the following command:
+git push -d remote_branch_name
+Try to make the local and corresponding branches have the same name.
 
+**********************************************************************
+**********************************************************************
+ 
 
   
