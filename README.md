@@ -48,7 +48,22 @@ $ git branch -a
 ************************************************************************
 ************************************************************************ 
  
- 
+To switch to another branch, type the following command:
+$ git checkout branch_name
+
+************************************************************************
+************************************************************************
+
+To create new branch in your local, type the following command
+$ git checkout -b new_branch_name
+
+BUT in this case, it is better to push your new local branch to remote server
+by type the following command:
+$ git push -u origin your_local_branch_name
+AND in this case your local branch is set up to the remote branch 
+
+***********************************************************************
+*********************************************************************** 
 
 
 
